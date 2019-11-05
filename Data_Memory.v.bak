@@ -12,7 +12,7 @@ reg [31:0]memory[0:8191];
 initial
 begin
     // Loading The Memory
-$readmemb ("D:\\3rd Computer\\C.O\\Project/MemmmmFile.txt", memory);  
+$readmemb ("C:\\Users\\Mohammed Emad\\Desktop\\MIPS project\\m.txt", memory);  
    
 end 
 

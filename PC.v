@@ -14,7 +14,7 @@ flag <= 1 ;
 pcout4 <= pcout + 4;
 end 
        
-else if(pcin < 4*8192) 
+else if(pcin<32764) //
 begin 
 pcout <= pcin;
 pcout4 <= pcin + 4;

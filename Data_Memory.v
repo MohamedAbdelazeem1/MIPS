@@ -9,12 +9,12 @@ output reg [31:0] readData;
 reg [31:0]memory[0:8191];
 
 
-initial
+/*initial
 begin
     // Loading The Memory
 $readmemb ("C:\\Users\\Mohammed Emad\\Desktop\\MIPS project\\m.txt", memory);  
    
-end 
+end */
 
 
 
