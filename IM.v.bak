@@ -18,7 +18,7 @@ end
 always @(pc_address)
 begin
 		
-		   ir = Imem[pc_address/4]; // lazem 22sem 3la 4
+ir = Imem[pc_address/4]; // lazem 22sem 3la 4
 end
 
 

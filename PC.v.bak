@@ -14,7 +14,7 @@ flag <= 1 ;
 pcout4 <= pcout + 4;
 end 
        
-else if(pcin<20) //32764
+else if(pcin<32764) //
 begin 
 pcout <= pcin;
 pcout4 <= pcin + 4;
@@ -22,6 +22,8 @@ end
 
 else
 begin
+resfile reg_file(0,0,0,0,0,data1,data2,data2_mem,clk);
+
 $stop;
 //$finish ;
 $monitor ("h555h");
