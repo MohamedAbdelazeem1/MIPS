@@ -1,2 +1,90 @@
 # Reading C:/intelFPGA_pro/17.1/modelsim_ase/tcl/vsim/pref.tcl
-# OpenFile {C:/Users/Mohammed Emad/Desktop/MIPS project/RF.v}
+# OpenFile {C:/Users/Mohammed Emad/Desktop/MIPS project/MIPS.mpf}
+# Loading project MIPS
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v failed with 3 errors.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# 14 compiles, 1 failed with 3 errors.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.mips
+# vsim -gui work.mips 
+# Start time: 21:03:22 on Nov 23,2019
+# Loading work.mips
+# Loading work.clock_gen
+# Loading work.program_counter
+# Loading work.instruction_memory
+# Loading work.instruction_reg
+# Loading work.ALU_Control
+# Loading work.sign_extend
+# Loading work.Mux2to1_alu
+# Loading work.Mux3to1_5bit
+# Loading work.resfile
+# Loading work.ALU
+# Loading work.dataMemory
+# Loading work.SLL_32
+# Loading work.adder
+# Loading work.And
+# Loading work.jumbFullAddress
+# Loading work.SLL_26
+# Loading work.Sll_Generic
+# Loading work.Mux3to1_31bit
+add wave sim:/mips/*
+run
+# rf =        10
+# rf =        20
+# rf =        45
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =        10
+# rf =         6
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# rf =         x
+# WARNING: No extended dataflow license exists

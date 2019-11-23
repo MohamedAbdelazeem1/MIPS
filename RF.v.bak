@@ -16,13 +16,17 @@ rf[16]<= 10;
 rf[17]<=6 ; //$zero 
 end
 /////////////////////
-always
+assign data1 = rf[read1];
+assign data2 = rf[read2];
+assign data2_mem = data2;
+
+/*always @(read1,read2)
 begin		
  data1 <= rf[read1];
  data2 <= rf[read2];
  data2_mem <= data2; //for mux after data mem
 end
-
+*/
 always@(posedge clk)
 begin
 
