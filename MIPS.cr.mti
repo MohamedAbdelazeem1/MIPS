@@ -48,13 +48,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	instruction_reg
 
-} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/SLL_Generic.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/SLL_Generic.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module Sll_Generic
-
-Top level modules:
-	Sll_Generic
-
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/MUX_2to1.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/MUX_2to1.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module Mux2to1_ir
@@ -67,6 +60,13 @@ Top level modules:
 	Mux2to1_alu
 	Mux3to1_31bit
 	Mux3to1_5bit
+
+} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/SLL_Generic.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/SLL_Generic.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module Sll_Generic
+
+Top level modules:
+	Sll_Generic
 
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Adder.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Adder.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
@@ -83,13 +83,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 
 Top level modules:
 	program_counter
-
-} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module mips
-
-Top level modules:
-	mips
 
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017

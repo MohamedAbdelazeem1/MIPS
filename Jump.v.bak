@@ -1,4 +1,4 @@
- 
+
 module SLL_26(in , out);
 
 input [25:0]in;

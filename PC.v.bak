@@ -22,9 +22,7 @@ end
 
 else
 begin
-resfile reg_file(0,0,0,0,0,data1,data2,data2_mem,clk);
-
-$stop;
+//$stop;
 //$finish ;
 $monitor ("h555h");
 end

@@ -67,7 +67,7 @@ Mux2to1_alu mux_2(con_data2 , con_first_32 , con_ALUSrc , con_mux_alu);
 Mux3to1_5bit mux_1_1(con_rt , con_rd ,ra, con_RegDst , con_mux1_rf); /// writeregister >> con_mux_rf
 
 
-resfile rf(con_rs, con_rt,con_mux1_rf, con_writedata, con_RegWrite, con_data1,con_data2,con_data2_mem,con_clk_pc);
+resfile rf(con_rs, con_rt, con_mux1_rf, con_writedata, con_RegWrite, con_data1,con_data2,con_data2_mem,con_clk_pc);
 ALU alu (con_data1,con_mux_alu,con_ALUControl, con_zero_flag, con_result,con_result_2);
 
 dataMemory dm (con_readData , con_result , con_data2_mem , con_MemRead , con_MemWrite);

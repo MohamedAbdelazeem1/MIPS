@@ -1,12 +1,12 @@
 
 
-module ALU_Control (input [5:0] op ,funct,
+module ALU_Control (input clk,input [5:0] op ,funct,
                     output reg [1:0] MemtoReg, output reg Branch, MemRead,output reg [1:0] RegDst ,output reg MemWrite,  ALUSrc, RegWrite,Jump,Jr, // memtoreg kant 2 bits
                     output reg [1:0] ALUOp, output reg [3:0] ALUControl );
 
 always @ (op,funct)
 begin
-
+Jr<=0;
 if (op == 0)  // R-type
 begin 
 RegDst <= 1;
