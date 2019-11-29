@@ -84,6 +84,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	program_counter
 
+} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mips
+
+Top level modules:
+	mips
+
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module SLL_26
@@ -93,5 +100,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	SLL_32
 	jumbFullAddress
+
+} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/RF.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/RF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module resfile
+
+Top level modules:
+	resfile
 
 } {} {}}

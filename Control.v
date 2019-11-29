@@ -1,5 +1,3 @@
-
-
 module ALU_Control (input clk,input [5:0] op ,funct,
                     output reg [1:0] MemtoReg, output reg Branch, MemRead,output reg [1:0] RegDst ,output reg MemWrite,  ALUSrc, RegWrite,Jump,Jr, // memtoreg kant 2 bits
                     output reg [1:0] ALUOp, output reg [3:0] ALUControl );
@@ -53,7 +51,7 @@ ALUOp <= 2'b10 ;  // R
 
             else if (funct == 8)  
               begin
-                 ALUControl = 4'b0010 ; // JR
+                 ALUControl = 4'b0011 ; // JR
                 
                end
 

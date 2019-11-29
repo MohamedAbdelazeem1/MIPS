@@ -6,7 +6,7 @@ input  [3:0] control;
 output reg [31:0] result, result_2;
 output reg zero_flag; 
 
-always @(data1 or data2)
+always @(data1 or data2 or control)
 begin
 
 if(control == 4'b0000)
@@ -17,7 +17,8 @@ else if (control == 4'b0010)
 result = data1 + data2;
 else if (control == 4'b0110)
 result = data1 - data2;
-
+else if(control == 4'b0011)
+result = data1 + 4 ;
 //else if (control == 4'b1110)  // sll
 //result = data2 << data1;
 

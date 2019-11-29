@@ -84,10 +84,10 @@ Mux2to1_alu mux_5 (mux_4_out ,con_fulladdress,con_Jump ,mux_5_out); // mux b4 pc
 
 
 Sll_Generic sll_generic (con_shamt , con_data2 , con_sll_result);
-Mux3to1_31bit mux_3_3 (con_result_2 , con_readData , con_pcout4,con_sll_result, con_MemtoReg , con_writedata);
+Mux3to1_31bit mux_3_3 (con_result_2 , con_readData , con_pc_ins ,con_sll_result, con_MemtoReg , con_writedata);
 
 
-Mux2to1_alu mux_6 (mux_5_out , con_data1 ,  con_jr , con_pcin); // jr mux
+Mux2to1_alu mux_6 (mux_5_out , con_result ,  con_jr , con_pcin); // jr mux
 
 
 

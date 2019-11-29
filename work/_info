@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/intelFPGA_pro/17.1
 vadder
-Z0 !s110 1574535780
+Z0 !s110 1574889397
 !i10b 1
 !s100 bHKU;YaUK0FngO0KM2b?51
 I@UAKf0Z<OnXjCeZk7W=dK3
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Users/Mohammed Emad/Desktop/MIPS project
-Z3 w1572648078
+Z3 w1574868670
 Z4 8C:/Users/Mohammed Emad/Desktop/MIPS project/Adder.v
 Z5 FC:/Users/Mohammed Emad/Desktop/MIPS project/Adder.v
 L0 2
@@ -23,7 +23,7 @@ Z6 OV;L;10.5c;63
 r1
 !s85 0
 31
-Z7 !s108 1574535780.000000
+Z7 !s108 1574889397.000000
 Z8 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/Adder.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/Adder.v|
 !i113 1
@@ -32,11 +32,11 @@ Z11 tCvgOpt 0
 vALU
 R0
 !i10b 1
-!s100 EfcQJL4;B7gf`laNjoh^;0
-I:4;mP7<BjXbf3A>h2d>N32
+!s100 5XL]jD5h3[=N27bhDi<hh2
+I7YPhS70W]I3_l4?bBLiF50
 R1
 R2
-w1572648081
+w1574868675
 8C:/Users/Mohammed Emad/Desktop/MIPS project/ALU.v
 FC:/Users/Mohammed Emad/Desktop/MIPS project/ALU.v
 L0 2
@@ -52,21 +52,21 @@ R10
 R11
 n@a@l@u
 vALU_Control
-R0
+Z12 !s110 1574889398
 !i10b 1
-!s100 HGz0;9ogTN_JUlUaEnCJ@2
-I<J`;BDKO3@4Z05Cb]2?IO3
+!s100 XD04RVZSm=6X@?^QaRBd=1
+I_OY`VjKIUCa33_f5BATbH3
 R1
 R2
-w1574446453
+w1574868682
 8C:/Users/Mohammed Emad/Desktop/MIPS project/Control.v
 FC:/Users/Mohammed Emad/Desktop/MIPS project/Control.v
-L0 3
+L0 1
 R6
 r1
 !s85 0
 31
-R7
+Z13 !s108 1574889398.000000
 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/Control.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/Control.v|
 !i113 1
@@ -102,17 +102,17 @@ R0
 I`MA9MN[DjA<nAU4AU^=Jn3
 R1
 R2
-Z12 w1572657812
-Z13 8C:/Users/Mohammed Emad/Desktop/MIPS project/clock.v
-Z14 FC:/Users/Mohammed Emad/Desktop/MIPS project/clock.v
+Z14 w1574868672
+Z15 8C:/Users/Mohammed Emad/Desktop/MIPS project/clock.v
+Z16 FC:/Users/Mohammed Emad/Desktop/MIPS project/clock.v
 L0 21
 R6
 r1
 !s85 0
 31
 R7
-Z15 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/clock.v|
-Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/clock.v|
+Z17 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/clock.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/clock.v|
 !i113 1
 R10
 R11
@@ -123,28 +123,28 @@ R0
 I3_0XPdUa_Q2_aNVN;R]R80
 R1
 R2
-R12
-R13
 R14
+R15
+R16
 L0 2
 R6
 r1
 !s85 0
 31
 R7
-R15
-R16
+R17
+R18
 !i113 1
 R10
 R11
 vdataMemory
-R0
+R12
 !i10b 1
-!s100 j]C3=:jz:_M0m?0@<C]G51
-IJ7E0Xf?dYG8;WiPo:h6MX0
+!s100 ]292zJg0;b3FDKhV5m;FJ1
+In4H1Jn<]jWhX@6GBFZb^P2
 R1
 R2
-w1572958308
+w1574887321
 8C:/Users/Mohammed Emad/Desktop/MIPS project/Data_Memory.v
 FC:/Users/Mohammed Emad/Desktop/MIPS project/Data_Memory.v
 L0 2
@@ -152,7 +152,7 @@ R6
 r1
 !s85 0
 31
-R7
+R13
 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/Data_Memory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/Data_Memory.v|
 !i113 1
@@ -160,13 +160,13 @@ R10
 R11
 ndata@memory
 vinstruction_memory
-Z17 !s110 1574535781
+Z19 !s110 1574889399
 !i10b 1
-!s100 8_njDD::Hm9W_3:KMi3mQ2
-IR]j@k3@d[V@U5H8@N@7CW1
+!s100 L6^]UU=ME?bdR_bL40cBI1
+I91Lmj0G^fP^bazo^7B[YS1
 R1
 R2
-w1574200512
+w1574869084
 8C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v
 FC:/Users/Mohammed Emad/Desktop/MIPS project/IM.v
 L0 1
@@ -174,20 +174,20 @@ R6
 r1
 !s85 0
 31
-Z18 !s108 1574535781.000000
+R13
 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v|
 !i113 1
 R10
 R11
 vinstruction_reg
-R17
+R19
 !i10b 1
 !s100 O`0d^HA@^kgVjilO=e?DO2
 IYA=:OHKa8M>3b>jgZ2T842
 R1
 R2
-w1572653950
+w1574868692
 8C:/Users/Mohammed Emad/Desktop/MIPS project/Instruction_Register.v
 FC:/Users/Mohammed Emad/Desktop/MIPS project/Instruction_Register.v
 L0 2
@@ -195,42 +195,42 @@ R6
 r1
 !s85 0
 31
-R18
+Z20 !s108 1574889399.000000
 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/Instruction_Register.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/Instruction_Register.v|
 !i113 1
 R10
 R11
 vjumbFullAddress
-R17
+R19
 !i10b 1
 !s100 8EW@bUJYK`?L55:dTL@Ib0
 Id_TBg?]JThRY61nKkA?MY1
 R1
 R2
-Z19 w1574443537
-Z20 8C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v
-Z21 FC:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v
+Z21 w1574868704
+Z22 8C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v
+Z23 FC:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v
 L0 24
 R6
 r1
 !s85 0
 31
-R18
-Z22 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v|
-Z23 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v|
+R20
+Z24 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v|
 !i113 1
 R10
 R11
 njumb@full@address
 vmips
-!s110 1574535783
+Z26 !s110 1574889401
 !i10b 1
-!s100 daYZAUGUf4]7BL9KHLZLi1
-I1Y@VNjmOP>5gZFB;kn4l20
+!s100 ONM3[S;I=7^OD9Uz6V07g3
+IK<S<Ua3MG=B3j`OmRhJPY1
 R1
 R2
-w1574449093
+w1574868707
 8C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v
 FC:/Users/Mohammed Emad/Desktop/MIPS project/Top.v
 L0 2
@@ -238,108 +238,108 @@ R6
 r1
 !s85 0
 31
-!s108 1574535783.000000
+Z27 !s108 1574889401.000000
 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v|
 !i113 1
 R10
 R11
 vMux2to1_alu
-R17
+Z28 !s110 1574889400
 !i10b 1
 !s100 ]2Wnd1Q02mJiDJVJc^OJT3
 I7Ibca6eA]Zc>=olI11?Kg1
 R1
 R2
-Z24 w1574443533
-Z25 8C:/Users/Mohammed Emad/Desktop/MIPS project/MUX_2to1.v
-Z26 FC:/Users/Mohammed Emad/Desktop/MIPS project/MUX_2to1.v
+Z29 w1574868697
+Z30 8C:/Users/Mohammed Emad/Desktop/MIPS project/MUX_2to1.v
+Z31 FC:/Users/Mohammed Emad/Desktop/MIPS project/MUX_2to1.v
 L0 19
 R6
 r1
 !s85 0
 31
-R18
-Z27 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/MUX_2to1.v|
-Z28 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/MUX_2to1.v|
+Z32 !s108 1574889400.000000
+Z33 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/MUX_2to1.v|
+Z34 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/MUX_2to1.v|
 !i113 1
 R10
 R11
 n@mux2to1_alu
 vMux2to1_ir
-R17
+R28
 !i10b 1
 !s100 bO3`T=XeU1=FehT@kS?7j3
 IOF[MP_bOh`fn<>2H:4eSo2
 R1
 R2
-R24
-R25
-R26
+R29
+R30
+R31
 L0 2
 R6
 r1
 !s85 0
 31
-R18
-R27
-R28
+R32
+R33
+R34
 !i113 1
 R10
 R11
 n@mux2to1_ir
 vMux3to1_31bit
-R17
+R28
 !i10b 1
 !s100 W:Y18JE8HGfF54Ng0mF1P3
 IVEc4oFG495[88kXKg]H:U2
 R1
 R2
-R24
-R25
-R26
+R29
+R30
+R31
 L0 37
 R6
 r1
 !s85 0
 31
-R18
-R27
-R28
+R32
+R33
+R34
 !i113 1
 R10
 R11
 n@mux3to1_31bit
 vMux3to1_5bit
-R17
+R28
 !i10b 1
 !s100 PlalzF:?l<Rd^V28:eI[^3
 I<Z1[6BYd6^45[in]SM`MW0
 R1
 R2
-R24
-R25
-R26
+R29
+R30
+R31
 L0 62
 R6
 r1
 !s85 0
 31
-R18
-R27
-R28
+R32
+R33
+R34
 !i113 1
 R10
 R11
 n@mux3to1_5bit
 vprogram_counter
-Z29 !s110 1574535782
+R28
 !i10b 1
-!s100 ANJ7z]Nz1X6gZXDZo=F@c2
-ImHf]F8fZh;n^1BUIQXAZD3
+!s100 dg?<1P9PlOPF7eBDXAkHh3
+Ii;CODL`:b5lK?T3TS7a<i1
 R1
 R2
-w1574202145
+w1574869036
 8C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v
 FC:/Users/Mohammed Emad/Desktop/MIPS project/PC.v
 L0 1
@@ -347,7 +347,7 @@ R6
 r1
 !s85 0
 31
-Z30 !s108 1574535782.000000
+R32
 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v|
 !i113 1
@@ -361,49 +361,49 @@ I^1zYzlJSVd0QTgoaZH@aQ0
 R1
 R2
 w1574202979
-Z31 8C:/Users/Mohammed Emad/Desktop/MIPS project/RF.v
-Z32 FC:/Users/Mohammed Emad/Desktop/MIPS project/RF.v
+Z35 8C:/Users/Mohammed Emad/Desktop/MIPS project/RF.v
+Z36 FC:/Users/Mohammed Emad/Desktop/MIPS project/RF.v
 L0 46
 R6
 r1
 !s85 0
 31
 !s108 1574202986.000000
-Z33 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/RF.v|
-Z34 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/RF.v|
+Z37 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/RF.v|
+Z38 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/RF.v|
 !i113 1
 R10
 R11
 nregister@file@test@bench
 vresfile
-R29
+R28
 !i10b 1
-!s100 4gTGDmF0e3D`_mJEZSooJ3
-I[PkXVCWRY>gmCL@_IND=d2
+!s100 F7?d8N3XL[N05@KWkL3Eb1
+IH?084]TK8nF2Td]J`dIMM3
 R1
 R2
-w1574535777
-R31
-R32
+w1574889391
+R35
+R36
 L0 1
 R6
 r1
 !s85 0
 31
-R30
-R33
-R34
+R32
+R37
+R38
 !i113 1
 R10
 R11
 vsign_extend
-R29
+R26
 !i10b 1
 !s100 ;NnJdQB;Z>lU7>lZ9VAOF0
 Ih0I6DH:o7XjWJzoN9QScB1
 R1
 R2
-w1572648119
+w1574868713
 8C:/Users/Mohammed Emad/Desktop/MIPS project/Sign_Extension.v
 FC:/Users/Mohammed Emad/Desktop/MIPS project/Sign_Extension.v
 L0 2
@@ -411,58 +411,58 @@ R6
 r1
 !s85 0
 31
-R30
+R27
 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/Sign_Extension.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/Sign_Extension.v|
 !i113 1
 R10
 R11
 vSLL_26
-R17
+R19
 !i10b 1
 !s100 BiM7@nRR4^`7Cij2^>AG83
 IF:IL<k6no:lT@0lz9Zacf0
 R1
 R2
-R19
-R20
 R21
+R22
+R23
 L0 2
 R6
 r1
 !s85 0
 31
-R18
-R22
-R23
+R20
+R24
+R25
 !i113 1
 R10
 R11
 n@s@l@l_26
 vSLL_32
-R17
+R19
 !i10b 1
 !s100 0BUVW=WNia=6@>ieMHbia1
 Ijd1dCThcJz`>Wmg^hQ8[D3
 R1
 R2
-R19
-R20
 R21
+R22
+R23
 L0 12
 R6
 r1
 !s85 0
 31
-R18
-R22
-R23
+R20
+R24
+R25
 !i113 1
 R10
 R11
 n@s@l@l_32
 vSll_Generic
-R29
+R26
 !i10b 1
 !s100 <H9clIjK4GX`?[;0UlGJC2
 Ie2kbeHVWQ>O8Hhfo2NLo?3
@@ -476,7 +476,7 @@ R6
 r1
 !s85 0
 31
-R30
+R27
 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/SLL_Generic.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/SLL_Generic.v|
 !i113 1

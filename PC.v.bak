@@ -4,7 +4,10 @@ input  clk;
 input [31:0] pcin;
 output reg [31:0] pcout;
 output reg [31:0] pcout4; 
-integer flag = 0 ;        
+integer flag = 0 ;     
+integer file;
+integer i;   
+
   always @(posedge clk)
       begin
 if (! flag)
@@ -14,7 +17,7 @@ flag <= 1 ;
 pcout4 <= pcout + 4;
 end 
        
-else if(pcin<32764) //
+else if(pcin<32764) 
 begin 
 pcout <= pcin;
 pcout4 <= pcin + 4;
@@ -22,7 +25,8 @@ end
 
 else
 begin
-//$stop;
+
+$stop;
 //$finish ;
 $monitor ("h555h");
 end
@@ -30,6 +34,18 @@ end
 end
 
 
+always @(negedge clk)
+begin
+
+if(flag)
+begin
+file = $fopen("C:\\Modeltech_pe_edu_10.4a\\examples\\TEXT FILE OF OUTPUTS\\PC Output Data .txt" , "a+");
+//@(posedge clk);
+$display("PC =%d",pcout);
+$fdisplay(file,"%d\n",pcout);
+$fclose(file);
+end
+end
 
 endmodule
 
