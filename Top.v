@@ -17,7 +17,7 @@ wire [31:0] con_first_32 ;
 
 wire [1:0]   con_ALUOp;
 wire [1:0] con_MemtoReg ,con_RegDst ;
-wire  con_Branch, con_MemRead, con_MemWrite,  con_ALUSrc, con_RegWrite,con_Jump , con_jr;
+wire  con_Branch, con_MemRead, con_MemWrite,con_ALUSrc, con_RegWrite,con_Jump , con_jr,memwrite,memread,io1_write,io1_read,io2_write,io2_read,HAL;
 wire [3:0] con_ALUControl;
 
 wire [4:0] con_mux1_rf ;
@@ -41,20 +41,23 @@ wire [31:0] mux_5_out  ;
 reg [4:0] ra = 31 ;
 wire [4:0] con_shamt ;
 wire [31:0] con_sll_result ;
+wire [31:0] data_bus;
+wire move_selector;
+wire [15:0] move_data; 
 
 
 
 
 
 clock_gen cg(con_clk_pc);
-program_counter pc(con_clk_pc,con_pcin,con_pc_ins,con_pcout4);
+program_counter pc(con_clk_pc,con_pcin,con_pc_ins,con_pcout4,con_op);
 
 instruction_memory im( con_pc_ins,con_ir );
-instruction_reg i_r(con_ir, con_op ,con_rs , con_rt , con_rd, con_first_16 ,con_first_26 ,con_shamt ,con_funct  );
+instruction_reg i_r(con_ir, con_op ,con_rs , con_rt , con_rd, con_first_16 ,con_first_26 ,con_shamt ,con_funct,move_data  );
 
-ALU_Control alu_control (con_clk_pc,con_op ,con_funct,
+ALU_Control alu_control (HAL,con_clk_pc,con_op ,con_funct,
                          con_MemtoReg, con_Branch, con_MemRead, con_RegDst ,con_MemWrite,  con_ALUSrc, con_RegWrite,con_Jump,con_jr,
-                         con_ALUOp, con_ALUControl );
+                         con_ALUOp, con_ALUControl,move_selector);
 
 
 
@@ -70,7 +73,11 @@ Mux3to1_5bit mux_1_1(con_rt , con_rd ,ra, con_RegDst , con_mux1_rf); /// writere
 resfile rf(con_rs, con_rt,con_mux1_rf, con_writedata, con_RegWrite, con_data1,con_data2,con_data2_mem,con_clk_pc);
 ALU alu (con_data1,con_mux_alu,con_ALUControl, con_zero_flag, con_result,con_result_2);
 
-dataMemory dm (con_readData , con_result , con_data2_mem , con_MemRead , con_MemWrite);
+control_signal_mux control_mux(memwrite,memread,io1_write,io1_read,io2_write,io2_read,con_result,con_MemWrite,con_MemRead,clk);
+
+Mux_dma(con_data2_mem,move_data, move_sel ,data_bus);
+dataMemory dm (con_readData , con_result ,data_bus,memread,memwrite,HAL);
+io1 myio1(con_readData, con_result ,data_bus,io1_read,io1_write,HAL);
 
 //Mux2to1_alu mux_3 (con_result_2, con_readData, con_MemtoReg, con_writedata );
 

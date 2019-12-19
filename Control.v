@@ -1,6 +1,6 @@
-module ALU_Control (input clk,input [5:0] op ,funct,
+module ALU_Control (input HAL,input clk,input [5:0] op ,funct,
                     output reg [1:0] MemtoReg, output reg Branch, MemRead,output reg [1:0] RegDst ,output reg MemWrite,  ALUSrc, RegWrite,Jump,Jr, // memtoreg kant 2 bits
-                    output reg [1:0] ALUOp, output reg [3:0] ALUControl );
+                    output reg [1:0] ALUOp, output reg [3:0] ALUControl,output reg move_sel);
 
 always @ (op,funct)
 begin
@@ -75,6 +75,7 @@ MemRead <= 0;
 MemWrite <= 0;
 Branch <=0;
 Jump <= 0;
+
 
 ALUOp <= 2'b0 ; // Addition
 ALUControl <= 4'b0010 ;
@@ -175,15 +176,46 @@ Jump <= 1;
 ALUOp <= 2'bxx ;
 end
 
-
-
-
+else if (op ==56)  // move number of elements
+begin
+RegDst <= 0;
+RegWrite <= 0;
+ALUSrc <= 1;
+MemtoReg <= 0;
+MemRead <= 0;
+MemWrite <= 0;
+Branch <=0;
+Jump <= 0;
+move_sel<=1;
+end
+else if (op ==57 )  // move from address ***
+begin
+RegDst <= 0;
+RegWrite <= 0;
+ALUSrc <= 1;
+MemtoReg <= 0;
+MemRead <= 0;
+MemWrite <= 0;
+Branch <=0;
+Jump <= 0;
+move_sel<=1;
+end
+else if (op == 59)  // move to address ***
+begin
+RegDst <= 0;
+RegWrite <= 0;
+ALUSrc <= 1;
+MemtoReg <= 0;
+MemRead <= 0;
+MemWrite <= 0;
+Branch <=0;
+Jump <= 0;
+move_sel<=1;
+end
 
 
 //$monitor ("%b %b %b %b %b %b %b %b",RegDst,RegWrite,ALUSrc,MemtoReg,MemRead,Branch,Jump, ALUOp, ALUControl);
 
 end
-
-
-
 endmodule
+

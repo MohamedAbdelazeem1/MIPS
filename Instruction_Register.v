@@ -1,5 +1,5 @@
 
-module instruction_reg ( IR, op , rs , rt , rd , first_16 ,first_26,shamt, funct );
+module instruction_reg ( IR, op , rs , rt , rd , first_16 ,first_26,shamt, funct ,move_data);
 
 input [31:0] IR ;
      
@@ -7,6 +7,7 @@ output reg [5:0]  op , funct ;     // 6 bits
 output reg [4:0]  rs , rt , rd , shamt ;   // 5 bits 
 output reg [15:0]  first_16  ;     // 16 bits
 output reg [25:0]  first_26 ;
+output reg [15:0]  move_data;
  
 always @ (IR) begin
    op <= IR[31:26];
@@ -17,6 +18,7 @@ always @ (IR) begin
    first_26 <= IR[25:0];
    funct <= IR[5:0];
    shamt <= IR[10:6];
+   move_data<=IR[15:0]; //data of move instructions
    
 end 
 

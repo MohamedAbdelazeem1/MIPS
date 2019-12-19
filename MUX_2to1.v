@@ -76,3 +76,29 @@ endcase
 
 
 endmodule
+
+
+module Mux_dma(alu_data,move_data , move_sel , out);
+
+input [31:0]alu_data;
+input [15:0] move_data ;
+input  move_sel ;
+
+output reg [31:0] out ;
+
+always @ (alu_data,move_data , move_sel )
+case (move_sel)
+0 : out <= alu_data;
+1 : out <= move_data;
+
+endcase
+
+
+endmodule
+
+
+
+
+
+
+

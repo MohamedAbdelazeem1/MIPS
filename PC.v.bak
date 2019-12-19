@@ -39,7 +39,7 @@ begin
 
 if(flag)
 begin
-file = $fopen("C:\\Modeltech_pe_edu_10.4a\\examples\\TEXT FILE OF OUTPUTS\\PC Output Data .txt" , "a+");
+file = $fopen("C:\\Users\\Mohammed Emad\\Desktop\\MIPS project\\Printing\\out_pc.txt" , "a+");
 //@(posedge clk);
 $display("PC =%d",pcout);
 $fdisplay(file,"%d\n",pcout);
