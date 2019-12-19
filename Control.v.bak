@@ -187,7 +187,7 @@ MemWrite <= 0;
 Branch <=0;
 Jump <= 0;
 move_sel<=1;
-
+end
 else if (op ==57 )  // move from address ***
 begin
 RegDst <= 0;
@@ -199,7 +199,7 @@ MemWrite <= 0;
 Branch <=0;
 Jump <= 0;
 move_sel<=1;
-
+end
 else if (op == 59)  // move to address ***
 begin
 RegDst <= 0;
@@ -211,13 +211,11 @@ MemWrite <= 0;
 Branch <=0;
 Jump <= 0;
 move_sel<=1;
-
+end
 
 
 //$monitor ("%b %b %b %b %b %b %b %b",RegDst,RegWrite,ALUSrc,MemtoReg,MemRead,Branch,Jump, ALUOp, ALUControl);
 
 end
-
-
-
 endmodule
+

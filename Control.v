@@ -5,6 +5,7 @@ module ALU_Control (input HAL,input clk,input [5:0] op ,funct,
 always @ (op,funct)
 begin
 Jr<=0;
+move_sel=0;
 if (op == 0)  // R-type
 begin 
 RegDst <= 1;

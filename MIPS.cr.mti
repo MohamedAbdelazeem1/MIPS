@@ -1,11 +1,4 @@
-{C:/Users/Mohammed Emad/Desktop/MIPS project/Control.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Control.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module ALU_Control
-
-Top level modules:
-	ALU_Control
-
-} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Data_Memory.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Data_Memory.v}
+{C:/Users/Mohammed Emad/Desktop/MIPS project/Data_Memory.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Data_Memory.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module dataMemory
 
@@ -92,6 +85,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 
 Top level modules:
 	control_signal_mux
+
+} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mips
+
+Top level modules:
+	mips
 
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
