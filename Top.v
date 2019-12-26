@@ -1,5 +1,4 @@
-
-module mips();
+module mips(DMA_data,DMA_Address,HLDA,HLD,clk);
 
 wire [31:0]con_pcin;
 
@@ -41,16 +40,18 @@ wire [31:0] mux_5_out  ;
 reg [4:0] ra = 31 ;
 wire [4:0] con_shamt ;
 wire [31:0] con_sll_result ;
-wire [31:0] data_bus,DMA_data;
 wire move_selector;
 wire [15:0] move_data; 
 
+/////////////////////////////////////////////////////
+output wire[15:0]DMA_data,DMA_Address;
+output HLDA;
+input HLD,clk;
 
-
-
+//////////////////////////////////////////////////////
 
 clock_gen cg(con_clk_pc);
-program_counter pc(con_clk_pc,con_pcin,con_pc_ins,con_pcout4,con_op);
+program_counter pc(con_clk_pc,con_pcin,con_pc_ins,con_pcout4,con_op,move_data);
 
 instruction_memory im( con_pc_ins,con_ir );
 instruction_reg i_r(con_ir, con_op ,con_rs , con_rt , con_rd, con_first_16 ,con_first_26 ,con_shamt ,con_funct,move_data  );
@@ -75,11 +76,11 @@ ALU alu (con_data1,con_mux_alu,con_ALUControl, con_zero_flag, con_result,con_res
 
 control_signal_mux control_mux(memwrite,memread,io1_write,io1_read,io2_write,io2_read,con_result,con_MemWrite,con_MemRead,clk);
 ////////////////////////////////
-DMA_registers_data(clk,op_code,move_data,DMA_data,Address_bus);
-Mux_dma(con_data2_mem,DMA_data, move_sel ,data_bus);
+DMA_registers_data dma_controller(clk,op_code,move_data,DMA_data,DMA_Address);
+
 ///////////////////////////////
-dataMemory dm (con_readData , con_result ,data_bus,memread,memwrite,HAL);
-io1 myio1(con_readData, con_result ,data_bus,io1_read,io1_write,HAL);
+dataMemory dm (con_readData , con_result ,con_data2_mem,memread,memwrite,HLDA);
+io1 myio1(con_readData, con_result ,con_data2_mem,io1_read,io1_write,HLDA);
 
 //Mux2to1_alu mux_3 (con_result_2, con_readData, con_MemtoReg, con_writedata );
 

@@ -4,13 +4,13 @@ input[5:0]op_code;
 input clk;
 integer flag;
 integer memory;
-output reg[31:0]data_bus,Address_bus;
+output reg[15:0]data_bus,Address_bus;
 initial begin flag=0;memory=0; end
 always@(posedge clk)
 begin
 if(op_code==56)
 begin
-data_bus=move_data;
+data_bus=move_data; //2 cycles to write in word count 
 Address_bus=1;
 end
 else if(op_code==57)
@@ -69,6 +69,7 @@ else if (op_code==58)
 begin
 if(move_data<=4*8191 && memory)//memory to memory
 begin
+memory=0;
 if(flag==0)
 begin
 Address_bus=13;//destination baseaddress register
@@ -90,6 +91,7 @@ end
 end
 else if(move_data>=4*8191 && memory)//memory to IO
 begin
+memory=0;
 if(flag==0)
 begin
 Address_bus=10; //mode register address
@@ -105,6 +107,7 @@ end
 end
 else if(move_data<=4*8191 && !memory)//IO to memory
 begin
+memory=0;
 data_bus=move_data; // base Address data
 Address_bus=0;	//baseAddress address 
 end

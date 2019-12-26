@@ -1,4 +1,4 @@
-module ALU_Control (input HAL,input clk,input [5:0] op ,funct,
+module ALU_Control (output HLDA,input clk,input [5:0] op ,funct,
                     output reg [1:0] MemtoReg, output reg Branch, MemRead,output reg [1:0] RegDst ,output reg MemWrite,  ALUSrc, RegWrite,Jump,Jr, // memtoreg kant 2 bits
                     output reg [1:0] ALUOp, output reg [3:0] ALUControl,output reg move_sel);
 

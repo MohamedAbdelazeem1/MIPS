@@ -1,10 +1,10 @@
 module DMA_registers_data(clk,op_code,move_data,data_bus,Address_bus);
 input[15:0]move_data;
-input[5:0]op_code
+input[5:0]op_code;
 input clk;
 integer flag;
 integer memory;
-output reg[31:0]data_bus,Address_bus;
+output reg[15:0]data_bus,Address_bus;
 initial begin flag=0;memory=0; end
 always@(posedge clk)
 begin

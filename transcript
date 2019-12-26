@@ -17,7 +17,8 @@
 # Compile of Top.v was successful.
 # Compile of Prephiral.v was successful.
 # Compile of control_mux.v was successful.
-# 16 compiles, 0 failed with no errors.
+# Compile of DMA_registers_data.v was successful.
+# 17 compiles, 0 failed with no errors.
 # Compile of Adder.v was successful.
 # Compile of ALU.v was successful.
 # Compile of clock.v was successful.
@@ -34,8 +35,8 @@
 # Compile of Top.v was successful.
 # Compile of Prephiral.v was successful.
 # Compile of control_mux.v was successful.
-# Compile of DMA_registers_data.v failed with 3 errors.
-# 17 compiles, 1 failed with 3 errors.
+# Compile of DMA_registers_data.v failed with 2 errors.
+# 17 compiles, 1 failed with 2 errors.
 # Compile of Adder.v was successful.
 # Compile of ALU.v was successful.
 # Compile of clock.v was successful.
