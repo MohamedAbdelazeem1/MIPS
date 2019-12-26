@@ -50,7 +50,7 @@ wire [15:0] move_data;
 
 
 clock_gen cg(con_clk_pc);
-program_counter pc(con_clk_pc,con_pcin,con_pc_ins,con_pcout4);
+program_counter pc(con_clk_pc,con_pcin,con_pc_ins,con_pcout4,con_op);
 
 instruction_memory im( con_pc_ins,con_ir );
 instruction_reg i_r(con_ir, con_op ,con_rs , con_rt , con_rd, con_first_16 ,con_first_26 ,con_shamt ,con_funct,move_data  );

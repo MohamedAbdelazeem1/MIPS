@@ -1,4 +1,4 @@
-module io1(readData,address,writeData,Read,Write,HAL);//keyboard with one register
+module io1(readData,address,writeData,Read,Write,HAL);//keyboard 
 input[31:0]address;
 input [31:0]writeData;
 input Read,Write,HAL  ; 
@@ -46,4 +46,8 @@ begin
 readData = 32'hxxxxxxxx;
 end
 end
-endmodule 
+endmodule
+
+
+
+

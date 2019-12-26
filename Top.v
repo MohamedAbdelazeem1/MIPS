@@ -41,7 +41,7 @@ wire [31:0] mux_5_out  ;
 reg [4:0] ra = 31 ;
 wire [4:0] con_shamt ;
 wire [31:0] con_sll_result ;
-wire [31:0] data_bus;
+wire [31:0] data_bus,DMA_data;
 wire move_selector;
 wire [15:0] move_data; 
 
@@ -74,8 +74,10 @@ resfile rf(con_rs, con_rt,con_mux1_rf, con_writedata, con_RegWrite, con_data1,co
 ALU alu (con_data1,con_mux_alu,con_ALUControl, con_zero_flag, con_result,con_result_2);
 
 control_signal_mux control_mux(memwrite,memread,io1_write,io1_read,io2_write,io2_read,con_result,con_MemWrite,con_MemRead,clk);
-
-Mux_dma(con_data2_mem,move_data, move_sel ,data_bus);
+////////////////////////////////
+DMA_registers_data(clk,op_code,move_data,DMA_data,Address_bus);
+Mux_dma(con_data2_mem,DMA_data, move_sel ,data_bus);
+///////////////////////////////
 dataMemory dm (con_readData , con_result ,data_bus,memread,memwrite,HAL);
 io1 myio1(con_readData, con_result ,data_bus,io1_read,io1_write,HAL);
 

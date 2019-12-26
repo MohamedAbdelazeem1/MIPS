@@ -1,2 +1,74 @@
 # Reading C:/intelFPGA_pro/17.1/modelsim_ase/tcl/vsim/pref.tcl
-# OpenFile {C:/Users/Mohammed Emad/Desktop/MIPS project/Data_Memory.v}
+# OpenFile {C:/Users/Mohammed Emad/Desktop/MIPS project/MIPS.mpf}
+# Loading project MIPS
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# Compile of Prephiral.v was successful.
+# Compile of control_mux.v was successful.
+# 16 compiles, 0 failed with no errors.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# Compile of Prephiral.v was successful.
+# Compile of control_mux.v was successful.
+# Compile of DMA_registers_data.v failed with 3 errors.
+# 17 compiles, 1 failed with 3 errors.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# Compile of Prephiral.v was successful.
+# Compile of control_mux.v was successful.
+# Compile of DMA_registers_data.v was successful.
+# 17 compiles, 0 failed with no errors.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# Compile of Prephiral.v was successful.
+# Compile of control_mux.v was successful.
+# Compile of DMA_registers_data.v was successful.
+# 17 compiles, 0 failed with no errors.

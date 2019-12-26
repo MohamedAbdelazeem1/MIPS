@@ -1,4 +1,4 @@
-module io1(readData,address,writeData,Read,Write,HAL);//keyboard with one register
+module io1(readData,address,writeData,Read,Write,HAL);//keyboard 
 input[31:0]address;
 input [31:0]writeData;
 input Read,Write,HAL  ; 
@@ -11,7 +11,7 @@ begin
 
 if(Read == 0 && Write == 1)
 begin 
-if(!HAL)
+if(HAL != 1)
 begin
 io1[(address-32768)/4] <= writeData;  // note address calculation
 end
@@ -27,7 +27,7 @@ end
 
 else if(Read == 1 && Write == 0)
 begin
-if(!HAL)
+if(HAL != 1)
 begin
 readData = io1[(address-32768)/4];   // note dividing by 4
 end
@@ -46,4 +46,7 @@ begin
 readData = 32'hxxxxxxxx;
 end
 end
-endmodule 
+endmodule
+
+
+
