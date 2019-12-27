@@ -1,4 +1,4 @@
-module instruction_memory ( pc_address,ir );
+module instruction_memory (pc_address,ir );
 
 input [31:0] pc_address;
 
@@ -15,7 +15,7 @@ begin
 Imem[i]=32'bx;
 end
 // Loading The Memory
-$readmemb ("C:\\Users\\Mohammed Emad\\Desktop\\MIPS project\\m.txt", Imem);  // The Input File (Assembly Converted To Binary)
+$readmemb ("C:\\Users\\Mohammed Emad\\Desktop\\Assembler_dma\\machine_code.txt", Imem);  // The Input File (Assembly Converted To Binary)
    
 end 
 

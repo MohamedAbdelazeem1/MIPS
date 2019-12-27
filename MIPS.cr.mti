@@ -34,19 +34,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	sign_extend
 
-} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Instruction_Register.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Instruction_Register.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module instruction_reg
-
-Top level modules:
-	instruction_reg
-
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module instruction_memory
 
 Top level modules:
 	instruction_memory
+
+} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Instruction_Register.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Instruction_Register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module instruction_reg
+
+Top level modules:
+	instruction_reg
 
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Prephiral.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Prephiral.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
@@ -61,14 +61,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 -- Compiling module Mux2to1_alu
 -- Compiling module Mux3to1_31bit
 -- Compiling module Mux3to1_5bit
--- Compiling module Mux_dma
 
 Top level modules:
 	Mux2to1_ir
 	Mux2to1_alu
 	Mux3to1_31bit
 	Mux3to1_5bit
-	Mux_dma
 
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/SLL_Generic.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/SLL_Generic.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
@@ -92,6 +90,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 
 Top level modules:
 	control_signal_mux
+
+} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module program_counter
+
+Top level modules:
+	program_counter
+
+} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module mips
+
+Top level modules:
+	mips
 
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017

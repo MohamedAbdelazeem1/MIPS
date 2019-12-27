@@ -1,12 +1,19 @@
-module io1(readData,address,writeData,Read,Write,HAL);//keyboard 
+module io1(IOrequest,clk,readData,address,writeData,Read,Write,HAL,request_to_dma);//keyboard 
 input[31:0]address;
 input [31:0]writeData;
 input Read,Write,HAL  ; 
 output reg [31:0] readData;
 reg [31:0]io1[0:4];
+input IOrequest,clk;
+output reg request_to_dma;
+
+always@(posedge clk)
+begin
+if(IOrequest)request_to_dma=1;
+else request_to_dma=0;
+end
 
 always @(address) 
-
 begin
 
 if(Read == 0 && Write == 1)

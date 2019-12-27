@@ -6,12 +6,12 @@ integer flag;
 integer memory;
 output reg[15:0]data_bus,Address_bus;
 initial begin flag=0;memory=0; end
-always@(posedge clk)
+always@(posedge clk or op_code)
 begin
 if(op_code==56)
 begin
-data_bus=move_data; //2 cycles to write in word count 
-Address_bus=1;
+data_bus<=move_data; //2 cycles to write in word count 
+Address_bus<=1;
 end
 else if(op_code==57)
 begin
@@ -65,7 +65,7 @@ flag=0;
 end
 end
 end
-else if (op_code==58)
+else if (op_code==59)
 begin
 if(move_data<=4*8191 && memory)//memory to memory
 begin
@@ -118,3 +118,38 @@ end
 
 
 endmodule
+
+
+
+
+module tb_rrrr();
+reg [5:0] op_code;
+reg [15:0] move_data ;
+wire [15:0] data_bus , address_bus;
+reg clk;
+DMA_registers_data my(clk,op_code,move_data,data_bus,address_bus);
+
+
+
+endmodule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

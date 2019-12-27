@@ -1,7 +1,7 @@
-module instruction_memory ( pc_address,ir );
+module instruction_memory ( clk,pc_address,ir );
 
 input [31:0] pc_address;
-
+input clk;
 output reg [31:0] ir ;
 integer i;
 integer flag;
@@ -15,7 +15,7 @@ begin
 Imem[i]=32'bx;
 end
 // Loading The Memory
-$readmemb ("C:\\Modeltech_pe_edu_10.4a\\examples\\machine_code.txt", Imem);  // The Input File (Assembly Converted To Binary)
+$readmemb ("C:\\Users\\Mohammed Emad\\Desktop\\Assembler_dma\\machine_code.txt", Imem);  // The Input File (Assembly Converted To Binary)
    
 end 
 
