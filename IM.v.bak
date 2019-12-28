@@ -1,7 +1,6 @@
-module instruction_memory ( clk,pc_address,ir );
+module instruction_memory (pc_address,ir );
 
-input [31:0] pc_address;
-input clk;
+input [31:0] pc_addres;
 output reg [31:0] ir ;
 integer i;
 integer flag;

@@ -1,21 +1,22 @@
-module DMA_registers_data(clk,op_code,move_data,data_bus,Address_bus);
+module DMA_registers_data(IR,clk,op_code,move_data,data_bus,Address_bus);
 input[15:0]move_data;
 input[5:0]op_code;
 input clk;
+input [31:0] IR ; 
 integer flag;
 integer memory;
 output reg[15:0]data_bus,Address_bus;
 initial begin flag=0;memory=0; end
-always@(posedge clk or op_code)
+always@(IR)
 begin
 if(op_code==56)
 begin
-data_bus<=move_data; //2 cycles to write in word count 
-Address_bus<=1;
+data_bus=IR[15:0]; //2 cycles to write in word count 
+Address_bus=1;
 end
 else if(op_code==57)
 begin
-if(move_data>8191*4)//prephiral to .....
+if(IR[15:0]>8191*4)//prephiral to .....
 begin
 if(flag==0)
 begin
@@ -42,12 +43,12 @@ data_bus=32'h00000000;
 flag=0;
 end
 end
-else if(move_data<=8191*4)//memory to ....
+else if(IR[15:0]<=8191*4)//memory to ....
 begin
 memory=1;   //memory source indication
 if(flag==0)
 begin
-data_bus=move_data; // base Address data
+data_bus=IR[15:0]; // base Address data
 Address_bus=0;	//baseAddress address 
 flag=flag+1;
 end
@@ -67,13 +68,12 @@ end
 end
 else if (op_code==59)
 begin
-if(move_data<=4*8191 && memory)//memory to memory
+if(IR[15:0]<=4*8191 && memory)//memory to memory
 begin
-memory=0;
 if(flag==0)
 begin
 Address_bus=13;//destination baseaddress register
-data_bus=move_data;
+data_bus=IR[15:0];
 flag=flag+1;
 end
 else if(flag==1)
@@ -87,11 +87,11 @@ begin
 Address_bus=12; //request register address
 data_bus=32'h00000000;
 flag=0;
-end
-end
-else if(move_data>=4*8191 && memory)//memory to IO
-begin
 memory=0;
+end
+end
+else if(IR[15:0]>=4*8191 && memory)//memory to IO
+begin
 if(flag==0)
 begin
 Address_bus=10; //mode register address
@@ -103,12 +103,13 @@ begin
 Address_bus=7; //command register address
 data_bus=32'h00000000;//mem to mem disable
 flag=0;
+memory=0;
 end
 end
-else if(move_data<=4*8191 && !memory)//IO to memory
+else if(IR[15:0]<=4*8191 && !memory)//IO to memory
 begin
 memory=0;
-data_bus=move_data; // base Address data
+data_bus=IR[15:0]; // base Address data
 Address_bus=0;	//baseAddress address 
 end
 

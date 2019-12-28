@@ -77,7 +77,7 @@ ALU alu (con_data1,con_mux_alu,con_ALUControl, con_zero_flag, con_result,con_res
 
 control_signal_mux control_mux(memwrite,memread,io1_write,io1_read,io2_write,io2_read,con_result,con_MemWrite,con_MemRead,con_clk_pc);
 ////////////////////////////////
-DMA_registers_data dma_controller(con_clk_pc,con_ir[31:26],move_data,DMA_data,DMA_Address);
+DMA_registers_data dma_controller(con_ir,con_clk_pc,con_ir[31:26],move_data,DMA_data,DMA_Address);
 
 ///////////////////////////////
 dataMemory dm (con_readData , con_result ,con_data2_mem,memread,memwrite,HLDA);

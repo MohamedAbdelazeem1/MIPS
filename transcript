@@ -6171,3 +6171,487 @@ run
 #    Time: 25 ps  Iteration: 2  Instance: /mips/im
 # 1
 # Break in Module instruction_memory at C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v line 28
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# Compile of Prephiral.v was successful.
+# Compile of control_mux.v was successful.
+# Compile of DMA_registers_data.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart
+# Loading work.mips
+# Loading work.clock_gen
+# Loading work.program_counter
+# Loading work.instruction_memory
+# Loading work.instruction_reg
+# Loading work.ALU_Control
+# Loading work.sign_extend
+# Loading work.Mux2to1_alu
+# Loading work.Mux3to1_5bit
+# Loading work.resfile
+# Loading work.ALU
+# Loading work.control_signal_mux
+# Loading work.DMA_registers_data
+# Loading work.dataMemory
+# Loading work.io1
+# Loading work.SLL_32
+# Loading work.adder
+# Loading work.And
+# Loading work.jumbFullAddress
+# Loading work.SLL_26
+# Loading work.Sll_Generic
+# Loading work.Mux3to1_31bit
+# ** Warning: (vsim-3017) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (1) does not match connection size (32) for port 'io2_read'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (32) does not match connection size (1) for port 'address'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3722) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Missing connection for port 'clk'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# PC =         0
+# ** Note: $stop    : C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v(169)
+#    Time: 3 ps  Iteration: 1  Instance: /mips/pc
+# Break in Module program_counter at C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v line 169
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v failed with 2 errors.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# Compile of Prephiral.v was successful.
+# Compile of control_mux.v was successful.
+# Compile of DMA_registers_data.v was successful.
+# 17 compiles, 1 failed with 2 errors.
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# Compile of Prephiral.v was successful.
+# Compile of control_mux.v was successful.
+# Compile of DMA_registers_data.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart
+# Loading work.mips
+# Loading work.clock_gen
+# Loading work.program_counter
+# Loading work.instruction_memory
+# Loading work.instruction_reg
+# Loading work.ALU_Control
+# Loading work.sign_extend
+# Loading work.Mux2to1_alu
+# Loading work.Mux3to1_5bit
+# Loading work.resfile
+# Loading work.ALU
+# Loading work.control_signal_mux
+# Loading work.DMA_registers_data
+# Loading work.dataMemory
+# Loading work.io1
+# Loading work.SLL_32
+# Loading work.adder
+# Loading work.And
+# Loading work.jumbFullAddress
+# Loading work.SLL_26
+# Loading work.Sll_Generic
+# Loading work.Mux3to1_31bit
+# ** Warning: (vsim-3017) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (1) does not match connection size (32) for port 'io2_read'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (32) does not match connection size (1) for port 'address'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3722) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Missing connection for port 'clk'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# PC =         0
+# PC =         4
+# PC =         8
+# PC =        12
+# PC =        12
+# PC =        16
+# PC =        16
+# PC =        16
+# PC =        16
+# PC =        20
+# PC =        20
+# PC =        24
+# ** Note: $finish    : C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v(27)
+#    Time: 25 ps  Iteration: 2  Instance: /mips/im
+# 1
+# Break in Module instruction_memory at C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v line 27
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# Compile of Prephiral.v was successful.
+# Compile of control_mux.v was successful.
+# Compile of DMA_registers_data.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart
+# Loading work.mips
+# Loading work.clock_gen
+# Loading work.program_counter
+# Loading work.instruction_memory
+# Loading work.instruction_reg
+# Loading work.ALU_Control
+# Loading work.sign_extend
+# Loading work.Mux2to1_alu
+# Loading work.Mux3to1_5bit
+# Loading work.resfile
+# Loading work.ALU
+# Loading work.control_signal_mux
+# Loading work.DMA_registers_data
+# Loading work.dataMemory
+# Loading work.io1
+# Loading work.SLL_32
+# Loading work.adder
+# Loading work.And
+# Loading work.jumbFullAddress
+# Loading work.SLL_26
+# Loading work.Sll_Generic
+# Loading work.Mux3to1_31bit
+# ** Warning: (vsim-3017) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (1) does not match connection size (32) for port 'io2_read'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (32) does not match connection size (1) for port 'address'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3722) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Missing connection for port 'clk'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# PC =         0
+# PC =         4
+# PC =         8
+# PC =        12
+# PC =        12
+# PC =        16
+# PC =        16
+# PC =        16
+# PC =        16
+# PC =        20
+# PC =        20
+# PC =        24
+# ** Note: $finish    : C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v(27)
+#    Time: 25 ps  Iteration: 2  Instance: /mips/im
+# 1
+# Break in Module instruction_memory at C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v line 27
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# Compile of Prephiral.v was successful.
+# Compile of control_mux.v was successful.
+# Compile of DMA_registers_data.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart
+# Loading work.mips
+# Loading work.clock_gen
+# Loading work.program_counter
+# Loading work.instruction_memory
+# Loading work.instruction_reg
+# Loading work.ALU_Control
+# Loading work.sign_extend
+# Loading work.Mux2to1_alu
+# Loading work.Mux3to1_5bit
+# Loading work.resfile
+# Loading work.ALU
+# Loading work.control_signal_mux
+# Loading work.DMA_registers_data
+# Loading work.dataMemory
+# Loading work.io1
+# Loading work.SLL_32
+# Loading work.adder
+# Loading work.And
+# Loading work.jumbFullAddress
+# Loading work.SLL_26
+# Loading work.Sll_Generic
+# Loading work.Mux3to1_31bit
+# ** Warning: (vsim-3017) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (1) does not match connection size (32) for port 'io2_read'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (32) does not match connection size (1) for port 'address'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3722) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Missing connection for port 'clk'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# PC =         0
+# PC =         4
+# PC =         8
+# PC =        12
+# PC =        12
+# PC =        16
+# PC =        16
+# PC =        16
+# PC =        16
+# PC =        20
+# PC =        20
+# PC =        24
+# ** Note: $finish    : C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v(27)
+#    Time: 25 ps  Iteration: 2  Instance: /mips/im
+# 1
+# Break in Module instruction_memory at C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v line 27
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# Compile of Prephiral.v was successful.
+# Compile of control_mux.v was successful.
+# Compile of DMA_registers_data.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart
+# Loading work.mips
+# Loading work.clock_gen
+# Loading work.program_counter
+# Loading work.instruction_memory
+# Loading work.instruction_reg
+# Loading work.ALU_Control
+# Loading work.sign_extend
+# Loading work.Mux2to1_alu
+# Loading work.Mux3to1_5bit
+# Loading work.resfile
+# Loading work.ALU
+# Loading work.control_signal_mux
+# Loading work.DMA_registers_data
+# Loading work.dataMemory
+# Loading work.io1
+# Loading work.SLL_32
+# Loading work.adder
+# Loading work.And
+# Loading work.jumbFullAddress
+# Loading work.SLL_26
+# Loading work.Sll_Generic
+# Loading work.Mux3to1_31bit
+# ** Warning: (vsim-3017) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (1) does not match connection size (32) for port 'io2_read'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (32) does not match connection size (1) for port 'address'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3722) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Missing connection for port 'clk'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# PC =         0
+# PC =         4
+# PC =         8
+# PC =        12
+# PC =        12
+# PC =        16
+# PC =        16
+# PC =        16
+# PC =        16
+# PC =        20
+# PC =        20
+# PC =        24
+# ** Note: $finish    : C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v(27)
+#    Time: 25 ps  Iteration: 2  Instance: /mips/im
+# 1
+# Break in Module instruction_memory at C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v line 27
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# Compile of Prephiral.v was successful.
+# Compile of control_mux.v was successful.
+# Compile of DMA_registers_data.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart
+# Loading work.mips
+# Loading work.clock_gen
+# Loading work.program_counter
+# Loading work.instruction_memory
+# Loading work.instruction_reg
+# Loading work.ALU_Control
+# Loading work.sign_extend
+# Loading work.Mux2to1_alu
+# Loading work.Mux3to1_5bit
+# Loading work.resfile
+# Loading work.ALU
+# Loading work.control_signal_mux
+# Loading work.DMA_registers_data
+# Loading work.dataMemory
+# Loading work.io1
+# Loading work.SLL_32
+# Loading work.adder
+# Loading work.And
+# Loading work.jumbFullAddress
+# Loading work.SLL_26
+# Loading work.Sll_Generic
+# Loading work.Mux3to1_31bit
+# ** Warning: (vsim-3017) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (1) does not match connection size (32) for port 'io2_read'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (32) does not match connection size (1) for port 'address'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3722) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Missing connection for port 'clk'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# PC =         0
+# PC =         4
+# PC =         8
+# PC =        12
+# PC =        12
+# PC =        16
+# PC =        16
+# PC =        16
+# PC =        16
+# PC =        20
+# PC =        20
+# PC =        24
+# ** Note: $finish    : C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v(27)
+#    Time: 25 ps  Iteration: 2  Instance: /mips/im
+# 1
+# Break in Module instruction_memory at C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v line 27
+# Compile of Adder.v was successful.
+# Compile of ALU.v was successful.
+# Compile of clock.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of IM.v was successful.
+# Compile of Instruction_Register.v was successful.
+# Compile of Jump.v was successful.
+# Compile of MUX_2to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of Sign_Extension.v was successful.
+# Compile of SLL_Generic.v was successful.
+# Compile of Top.v was successful.
+# Compile of Prephiral.v was successful.
+# Compile of control_mux.v was successful.
+# Compile of DMA_registers_data.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart
+# Loading work.mips
+# Loading work.clock_gen
+# Loading work.program_counter
+# Loading work.instruction_memory
+# Loading work.instruction_reg
+# Loading work.ALU_Control
+# Loading work.sign_extend
+# Loading work.Mux2to1_alu
+# Loading work.Mux3to1_5bit
+# Loading work.resfile
+# Loading work.ALU
+# Loading work.control_signal_mux
+# Loading work.DMA_registers_data
+# Loading work.dataMemory
+# Loading work.io1
+# Loading work.SLL_32
+# Loading work.adder
+# Loading work.And
+# Loading work.jumbFullAddress
+# Loading work.SLL_26
+# Loading work.Sll_Generic
+# Loading work.Mux3to1_31bit
+# ** Warning: (vsim-3017) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (1) does not match connection size (32) for port 'io2_read'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3015) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [PCDPC] - Port size (32) does not match connection size (1) for port 'address'. The port definition is at: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mips/control_mux File: C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v
+# ** Warning: (vsim-3722) C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v(78): [TFMPC] - Missing connection for port 'clk'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# PC =         0
+# PC =         4
+# PC =         8
+# PC =        12
+# PC =        12
+# PC =        16
+# PC =        16
+# PC =        16
+# PC =        16
+# PC =        20
+# PC =        20
+# PC =        24
+# ** Note: $finish    : C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v(27)
+#    Time: 25 ps  Iteration: 2  Instance: /mips/im
+# 1
+# Break in Module instruction_memory at C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v line 27
+# End time: 20:47:20 on Dec 27,2019, Elapsed time: 5:20:52
+# Errors: 4, Warnings: 121

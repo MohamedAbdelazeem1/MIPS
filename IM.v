@@ -1,7 +1,6 @@
 module instruction_memory (pc_address,ir );
 
 input [31:0] pc_address;
-
 output reg [31:0] ir ;
 integer i;
 integer flag;

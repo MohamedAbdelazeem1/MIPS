@@ -1,8 +1,7 @@
 
-module instruction_reg ( IR, op , rs , rt , rd , first_16 ,first_26,shamt, funct ,move_data);
+module instruction_reg (IR, op , rs , rt , rd , first_16 ,first_26,shamt, funct ,move_data);
 
-input [31:0] IR ;
-     
+input [31:0] IR ; 
 output reg [5:0]  op , funct ;     // 6 bits 
 output reg [4:0]  rs , rt , rd , shamt ;   // 5 bits 
 output reg [15:0]  first_16  ;     // 16 bits

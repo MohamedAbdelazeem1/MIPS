@@ -5,6 +5,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	ALU_Control
 
+} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/DMA_registers_data.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/DMA_registers_data.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module DMA_registers_data
+-- Compiling module tb_rrrr
+
+Top level modules:
+	tb_rrrr
+
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Data_Memory.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Data_Memory.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module dataMemory
@@ -34,19 +42,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	sign_extend
 
-} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module instruction_memory
-
-Top level modules:
-	instruction_memory
-
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Instruction_Register.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Instruction_Register.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module instruction_reg
 
 Top level modules:
 	instruction_reg
+
+} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
 
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Prephiral.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Prephiral.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
@@ -91,19 +99,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	control_signal_mux
 
-} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module program_counter
-
-Top level modules:
-	program_counter
-
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
 -- Compiling module mips
 
 Top level modules:
 	mips
+
+} {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/PC.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module program_counter
+
+Top level modules:
+	program_counter
 
 } {} {}} {C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v} {1 {vlog -work work -stats=none {C:/Users/Mohammed Emad/Desktop/MIPS project/Jump.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017

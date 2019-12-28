@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA_pro/17.1
 vadder
-Z0 !s110 1577462177
+Z0 !s110 1577464019
 !i10b 1
 !s100 bHKU;YaUK0FngO0KM2b?51
 I@UAKf0Z<OnXjCeZk7W=dK3
@@ -23,7 +23,7 @@ Z6 OV;L;10.5c;63
 r1
 !s85 0
 31
-Z7 !s108 1577462177.000000
+Z7 !s108 1577464019.000000
 Z8 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/Adder.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/Adder.v|
 !i113 1
@@ -52,7 +52,7 @@ R10
 R11
 n@a@l@u
 vALU_Control
-Z12 !s110 1577462178
+Z12 !s110 1577464020
 !i10b 1
 !s100 4oZPOXS1GkKYVa0bPUHaN1
 I_aF^m@HS>1W?<GPkDEL6^2
@@ -66,7 +66,7 @@ R6
 r1
 !s85 0
 31
-Z13 !s108 1577462178.000000
+Z13 !s108 1577464020.000000
 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/Control.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/Control.v|
 !i113 1
@@ -138,7 +138,7 @@ R18
 R10
 R11
 vcontrol_signal_mux
-Z19 !s110 1577462180
+Z19 !s110 1577464022
 !i10b 1
 !s100 Oed5V;Uh]g_MCiL?[`7mb3
 IWD9I@^b6;`g9DYKmT6ZYh3
@@ -152,7 +152,7 @@ R6
 r1
 !s85 0
 31
-Z20 !s108 1577462180.000000
+Z20 !s108 1577464022.000000
 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/control_mux.v|
 !i113 1
@@ -183,11 +183,11 @@ ndata@memory
 vDMA_registers_data
 R19
 !i10b 1
-!s100 0MR<2TOH>XKMlD]Q;[f@o1
-I`EZg0aZb`=Ji=C^>j6Cno2
+!s100 @^=kNz8fUJEKkUaC5AQj:3
+ImEZT<D=2FbUd0=HfaOLXM1
 R1
 R2
-Z21 w1577462174
+Z21 w1577464015
 Z22 8C:/Users/Mohammed Emad/Desktop/MIPS project/DMA_registers_data.v
 Z23 FC:/Users/Mohammed Emad/Desktop/MIPS project/DMA_registers_data.v
 L0 1
@@ -205,11 +205,11 @@ n@d@m@a_registers_data
 vinstruction_memory
 R12
 !i10b 1
-!s100 fPgSRV:ilIV8ZQBlN26N>3
-I6n>8O>`K<__85TKaCZjXa3
+!s100 SkMAPPn5?fFo7FCScghna2
+IJ07>JBHc`PiaOeji6d2PQ0
 R1
 R2
-w1577450528
+w1577462919
 8C:/Users/Mohammed Emad/Desktop/MIPS project/IM.v
 FC:/Users/Mohammed Emad/Desktop/MIPS project/IM.v
 L0 1
@@ -226,11 +226,11 @@ R11
 vinstruction_reg
 R12
 !i10b 1
-!s100 >U?jS8N2S8lVF=hC3BBkG1
-I4_364aaJD8j0D4ac@ah]i2
+!s100 eMP1Fd9TLWAO5?@P?X79T3
+IM45me0DJWV0dO0YBli_8b2
 R1
 R2
-w1577449878
+w1577462827
 8C:/Users/Mohammed Emad/Desktop/MIPS project/Instruction_Register.v
 FC:/Users/Mohammed Emad/Desktop/MIPS project/Instruction_Register.v
 L0 2
@@ -309,13 +309,13 @@ R10
 R11
 njumb@full@address
 vmips
-Z35 !s110 1577462179
+Z35 !s110 1577464021
 !i10b 1
-!s100 94ahndV[fo9TRnBgghN]22
-IJ6`d@10Df[DXAz]4oQz=g2
+!s100 zz`202j0MA[@nN=`l<DWF2
+IgjXT21leCgQ@Lmj;KF_K=1
 R1
 R2
-w1577450711
+w1577463254
 8C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v
 FC:/Users/Mohammed Emad/Desktop/MIPS project/Top.v
 L0 1
@@ -323,14 +323,14 @@ R6
 r1
 !s85 0
 31
-Z36 !s108 1577462179.000000
+Z36 !s108 1577464021.000000
 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/Top.v|
 !i113 1
 R10
 R11
 vMux2to1_alu
-R35
+R12
 !i10b 1
 !s100 ]2Wnd1Q02mJiDJVJc^OJT3
 I7Ibca6eA]Zc>=olI11?Kg1
@@ -344,7 +344,7 @@ R6
 r1
 !s85 0
 31
-R36
+R13
 Z40 !s107 C:/Users/Mohammed Emad/Desktop/MIPS project/MUX_2to1.v|
 Z41 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Mohammed Emad/Desktop/MIPS project/MUX_2to1.v|
 !i113 1
@@ -352,7 +352,7 @@ R10
 R11
 n@mux2to1_alu
 vMux2to1_ir
-R35
+R12
 !i10b 1
 !s100 bO3`T=XeU1=FehT@kS?7j3
 IOF[MP_bOh`fn<>2H:4eSo2
@@ -366,7 +366,7 @@ R6
 r1
 !s85 0
 31
-R36
+R13
 R40
 R41
 !i113 1
@@ -374,7 +374,7 @@ R10
 R11
 n@mux2to1_ir
 vMux3to1_31bit
-R35
+R12
 !i10b 1
 !s100 W:Y18JE8HGfF54Ng0mF1P3
 IVEc4oFG495[88kXKg]H:U2
@@ -388,7 +388,7 @@ R6
 r1
 !s85 0
 31
-R36
+R13
 R40
 R41
 !i113 1
@@ -396,7 +396,7 @@ R10
 R11
 n@mux3to1_31bit
 vMux3to1_5bit
-R35
+R12
 !i10b 1
 !s100 R:1afj;:F0Q6Tc7Q]S]gV0
 Ij`n4ES_8UYaJoojmj4BS:3
@@ -410,7 +410,7 @@ R6
 r1
 !s85 0
 31
-R36
+R13
 R40
 R41
 !i113 1
@@ -593,14 +593,14 @@ n@sll_@generic
 vtb_rrrr
 R19
 !i10b 1
-!s100 VXRQ>ljTUHTzC;e>]@2UR2
-IgZCc;L<XnTj7^EiS:5A6i0
+!s100 aZ<V1a6G=fY8:;X4:l0D81
+IRn=_lkhf34z5kcIWP`oLl1
 R1
 R2
 R21
 R22
 R23
-L0 125
+L0 126
 R6
 r1
 !s85 0

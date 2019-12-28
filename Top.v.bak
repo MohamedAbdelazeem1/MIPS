@@ -52,7 +52,7 @@ input HLD;
 //////////////////////////////////////////////////////
 
 clock_gen cg(con_clk_pc);
-program_counter pc(con_clk_pc,con_pcin,con_pc_ins,con_pcout4,con_op,move_data,IOrequest);
+program_counter pc(con_clk_pc,con_pcin,con_pc_ins,con_pcout4,con_ir[31:26],move_data,IOrequest);
 
 instruction_memory im(con_pc_ins,con_ir );
 instruction_reg i_r(con_ir, con_op ,con_rs , con_rt , con_rd, con_first_16 ,con_first_26 ,con_shamt ,con_funct,move_data  );
@@ -77,7 +77,7 @@ ALU alu (con_data1,con_mux_alu,con_ALUControl, con_zero_flag, con_result,con_res
 
 control_signal_mux control_mux(memwrite,memread,io1_write,io1_read,io2_write,io2_read,con_result,con_MemWrite,con_MemRead,con_clk_pc);
 ////////////////////////////////
-DMA_registers_data dma_controller(con_clk_pc,con_op,move_data,DMA_data,DMA_Address);
+DMA_registers_data dma_controller(con_clk_pc,con_ir[31:26],move_data,DMA_data,DMA_Address);
 
 ///////////////////////////////
 dataMemory dm (con_readData , con_result ,con_data2_mem,memread,memwrite,HLDA);
